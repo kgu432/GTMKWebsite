@@ -1,0 +1,259 @@
+/* YOUR STYLES HERE */
+
+body {
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 30px;
+    background-color: #34435e;
+    color:azure;
+    text-align: center;
+}
+
+#dropdowns {
+    padding:20px;
+    margin-top: 20px;
+    align-items: center;
+    background-color:azure;
+    border:none;
+    position:sticky;
+}
+
+.dropdown-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Monaco', monospace;
+    font-weight:bold;
+    font-size:20px;
+    color:#6369d1;
+    border:none;
+    background-color: azure;
+    height:60px;
+    text-decoration:none;    
+}
+
+.dropdown-item:hover{
+    color:#60e1e0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px #D8D2E1;
+}
+
+.dropdown-content a:hover{
+    display: block;
+}
+
+#gtmklogo {
+    height: 100px;
+}
+
+#GTMechKeys{
+    height: 30px;
+}
+
+#keyboard-images {
+    justify-content: flex;
+}
+
+.wrapper1 {
+    margin-top: 60px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+    grid-gap: 60px;
+    color: #6369d1;
+    margin-bottom: 60px;
+}
+  
+.box {
+    color: #fff;
+    padding: 50px;
+    font-size: 100%;
+    font-family: 'Monaco', monospace;
+    font-weight: bold;
+}
+  
+.a {
+    color: #6369d1;
+    background-color: #D8D2E1;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border-radius: 200px;
+  }
+.b {
+    color:#6369d1;
+    background-color: #D8D2E1;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-radius: 200px;
+  }
+
+.c {
+    color:#6369d1;
+    background-color: #D8D2E1;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border-radius: 200px;
+}
+.d {
+    color:#6369d1;
+    background-color: #D8D2E1;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border-radius: 200px;
+}
+
+.e {
+    color:#6369d1;
+    background-color: #D8D2E1;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-radius: 200px;
+}
+
+.f {
+    color:#6369d1;
+    background-color: #D8D2E1;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    border-radius: 200px;
+}
+
+.a:hover,.b:hover, .c:hover, .d:hover, .e:hover, .f:hover{
+    box-shadow: 0px 0px 16px #6369d1;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.resource-topics {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+}
+  
+.resource-topics a {
+    font-family: 'Monaco', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6369d1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.resource-topics a:hover {
+    background-color: azure;
+}
+  
+.dropdown:hover .resource-topics {
+    display: block;
+}
+
+#gtdiscordlogo {
+    margin-top: 20px;
+    height: 180px;
+    width: 180px;
+    border-radius: 40px;
+}
+
+#officer-emails{
+    margin-top: 6%;
+    font-family: 'Monaco', monospace;
+    font-size: 19.5px;
+    font-weight: bold;
+    color: #b88e8d;
+}
+
+#eventimages{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#h1{
+    font-family: 'Monaco', monospace;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#goals{
+    font-family: 'Monaco', monospace;
+    padding: 20px 100px 20px 100px;
+    font-size: 20px;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 1000px;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+  
+.slides {
+    width:20000px;
+    margin: 0px 0px 0px 4000px;
+    animation-name: slide;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+}
+  
+.slide {
+    width: 1000px;
+    position: relative;
+    float: left;
+}
+
+@keyframes slide {
+    0% {margin-left: 0px;}
+    5% {margin-left: 0px;}
+    10% {margin-left: -1000px;}
+    15% {margin-left: -2000px;}
+    20% {margin-left: -3000px;}
+    25% {margin-left: -4000px;}
+    30% {margin-left: -5000px;}
+    35% {margin-left: -6000px;}
+    40% {margin-left: -7000px;}
+    45% {margin-left: -8000px;}
+    50% {margin-left: -9000px;}
+    55% {margin-left: -10000px;}
+    60% {margin-left: -11000px;}
+    65% {margin-left: -12000px;}
+    70% {margin-left: -13000px;}
+    75% {margin-left: -14000px;}
+    80% {margin-left: -15000px;}
+    85% {margin-left: -16000px;}
+    90% {margin-left: -17000px;}
+    95% {margin-left: -18000px;}
+    100% {margin-left: -19000px;}
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    padding: 40px 0px 0px 0px;
+    background-color: azure;
+    color: #6369d1;
+    text-align: center;  
+    font-family: 'Monaco', monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footerelement{
+    border:none;
+    background-color: azure;
+    color: #6369d1;
+    font-family: 'Monaco', monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
